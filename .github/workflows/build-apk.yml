@@ -13,8 +13,8 @@ jobs:
       - uses: actions/checkout@v4
 
       - name: Extract source
-        run: unzip TitanGlide-0.1-source.zip
-
+        run: unzip TitanGlide-0.1.1-source.zip
+        
       - uses: actions/setup-java@v4
         with:
           distribution: temurin
